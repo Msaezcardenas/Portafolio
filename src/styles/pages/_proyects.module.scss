@@ -1,0 +1,16 @@
+.proyects {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  column-gap: 3rem;
+  max-width: 100%;
+  height: 100%;
+
+  .lefContainer {
+    background-color: blue;
+    height: 100%;
+  }
+
+  .rigthContainer {
+    background-color: red;
+  }
+}
